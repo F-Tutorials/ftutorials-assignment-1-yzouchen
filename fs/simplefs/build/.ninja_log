@@ -1,0 +1,18 @@
+# ninja log v5
+58	81	1656849654298395840	sfs-fuse	9b280d7ef226383b
+1	50	1656849654269145259	CMakeFiles/sfs-fuse.dir/src/sfs_cache.c.o	f66e1bc545c52e5d
+1	55	1656849654272395323	CMakeFiles/sfs-fuse.dir/src/sfs.c.o	720f178f53007bd4
+1	39	1656849654258311710	CMakeFiles/sfs-fuse.dir/src/sfs_debug.c.o	6be530680492be19
+2	58	1656849654277812098	CMakeFiles/sfs-fuse.dir/src/sfs_utils.c.o	9f9c5e0f4e2c31a9
+36	1593	1658917476746633691	CMakeFiles/sfs-fuse.dir/src/sfs.c.o	720f178f53007bd4
+37	1593	1658917476748633706	CMakeFiles/sfs-fuse.dir/src/sfs_cache.c.o	f66e1bc545c52e5d
+39	1596	1658917476751633729	CMakeFiles/sfs-fuse.dir/src/sfs_debug.c.o	6be530680492be19
+39	1596	1658917476750633722	CMakeFiles/sfs-fuse.dir/src/sfs_utils.c.o	9f9c5e0f4e2c31a9
+1596	2218	1658917477369638501	sfs-fuse	9b280d7ef226383b
+24	108	1658917862839731895	CMakeFiles/sfs-fuse.dir/src/sfs_debug.c.o	6be530680492be19
+23	115	1658917862848732107	CMakeFiles/sfs-fuse.dir/src/sfs.c.o	720f178f53007bd4
+23	116	1658917862848732107	CMakeFiles/sfs-fuse.dir/src/sfs_cache.c.o	f66e1bc545c52e5d
+24	118	1658917862848732107	CMakeFiles/sfs-fuse.dir/src/sfs_utils.c.o	9f9c5e0f4e2c31a9
+118	168	1658917862899733312	sfs-fuse	9b280d7ef226383b
+0	43	1658917877547079435	CMakeFiles/sfs-fuse.dir/src/sfs_cache.c.o	f66e1bc545c52e5d
+43	67	1658917877566079884	sfs-fuse	9b280d7ef226383b
