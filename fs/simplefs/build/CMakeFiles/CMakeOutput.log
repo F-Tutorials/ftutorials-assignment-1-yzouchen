@@ -1,0 +1,30 @@
+The system is: Windows - 10.0.18362 - AMD64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: C:/cygwin64/bin/gcc.exe 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.exe"
+
+The C compiler identification is GNU, found in "E:/dokan/simplefs/build/CMakeFiles/3.23.0/CompilerIdC/a.exe"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: E:/dokan/simplefs/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):D:/gcc/bin/mingw32-make.exe -f Makefile cmTC_f7957/fast && D:/gcc/bin/mingw32-make.exe  -f CMakeFiles\cmTC_f7957.dir\build.make CMakeFiles/cmTC_f7957.dir/build
+mingw32-make.exe[1]: Entering directory 'E:/dokan/simplefs/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_f7957.dir/testCCompiler.c.obj
+C:\cygwin64\bin\gcc.exe    -o CMakeFiles\cmTC_f7957.dir\testCCompiler.c.obj -c E:\dokan\simplefs\build\CMakeFiles\CMakeTmp\testCCompiler.c
+Linking C executable cmTC_f7957.exe
+D:\cmake\bin\cmake.exe -E cmake_link_script CMakeFiles\cmTC_f7957.dir\link.txt --verbose=1
+D:\cmake\bin\cmake.exe -E rm -f CMakeFiles\cmTC_f7957.dir/objects.a
+C:\cygwin64\bin\ar.exe qc CMakeFiles\cmTC_f7957.dir/objects.a @CMakeFiles\cmTC_f7957.dir\objects1.rsp
+C:\cygwin64\bin\gcc.exe -Wl,--whole-archive CMakeFiles\cmTC_f7957.dir/objects.a -Wl,--no-whole-archive -o cmTC_f7957.exe -Wl,--out-implib,libcmTC_f7957.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_f7957.dir\linklibs.rsp
+mingw32-make.exe[1]: Leaving directory 'E:/dokan/simplefs/build/CMakeFiles/CMakeTmp'
+
+
+

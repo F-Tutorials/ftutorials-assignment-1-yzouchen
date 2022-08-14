@@ -1,0 +1,32 @@
+{
+    "tasks": [
+        {
+            "type": "cppbuild",
+            "label": "编译SFS",
+            "command": "gcc",
+            "args": [
+                "-o",
+                "sfs-cygwin",
+                "-D_FILE_OFFSET_BITS=64",
+                "-I./include",
+                "./src/sfs.c",
+                "./src/sfs_utils.c", 
+                "./src/ddrivercyg.c",
+                "-g",
+                "cygdokanfuse2.dll"
+            ],
+            "options": {
+                "cwd": "${workspaceFolder}/"
+            },
+            "problemMatcher": [
+                "$gcc"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "detail": "调试器生成的任务。"
+        }
+    ],
+    "version": "2.0.0"
+}
